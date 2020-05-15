@@ -154,7 +154,7 @@ int operacje(struct Tablica *t, int *wybor)
 		{	
 			m=0;
 			system("clear");
-			cout << "Podaj numer wierszu: ";	
+			cout << "Podaj numer wiersza: ";	
 			cin >> m;
 			if(!cin)
 			{
@@ -182,7 +182,7 @@ int operacje(struct Tablica *t, int *wybor)
 		{	
 			n=0;
 			system("clear");
-			cout << "Podaj numer wierszu: ";	
+			cout << "Podaj numer kolumny: ";	
 			cin >> n;
 			if(!cin)
 			{
@@ -196,7 +196,7 @@ int operacje(struct Tablica *t, int *wybor)
 		{
 			suma += t->tab[n-1][i];
 		}	
-		cout << "\nSuma wszystkich elementów kolumny o numerze " << m << ", wynosi: " << suma << endl;	
+		cout << "\nSuma wszystkich elementów w kolumnie o numerze " << m << ", wynosi: " << suma << endl;	
 		cout<<endl;	
 	}
 
@@ -206,12 +206,11 @@ int operacje(struct Tablica *t, int *wybor)
 	{
 		system("clear");
 		int max;
-		cout<<"Podaj indeks wiersza: ";
 		do			
 		{	
 			m=0;
 			system("clear");
-			cout << "Podaj numer wierszu: ";	
+			cout << "Podaj numer wiersza: ";	
 			cin >> m;
 			if(!cin)
 			{
@@ -240,7 +239,6 @@ int operacje(struct Tablica *t, int *wybor)
 	{
 		system("clear");
 		int max;
-		cout<<"Podaj indeks kolumny: ";
 		do			
 		{	
 			n=0;
@@ -274,12 +272,11 @@ int operacje(struct Tablica *t, int *wybor)
 	{
 		system("clear");
 		int min;
-		cout<<"Podaj indeks wiersza: ";
 		do			
 		{	
 			m=0;
 			system("clear");
-			cout << "Podaj numer wierszu: ";	
+			cout << "Podaj numer wiersza: ";	
 			cin >> m;
 			if(!cin)
 			{
@@ -308,7 +305,6 @@ int operacje(struct Tablica *t, int *wybor)
 	{
 		system("clear");
 		int min;
-		cout<<"Podaj indeks kolumny: ";
 		do			
 		{	
 			n=0;
@@ -344,7 +340,7 @@ int operacje(struct Tablica *t, int *wybor)
 		{	
 			m=0;
 			system("clear");
-			cout << "Podaj numer wierszu: ";	
+			cout << "Podaj numer wiersza: ";	
 			cin >> m;
 			if(!cin)
 			{
