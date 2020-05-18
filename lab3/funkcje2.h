@@ -28,7 +28,10 @@ struct Tablica
 };
 
 int menu(struct Tablica *t, int *wybor);
-int tablica(struct Tablica *t, int *wybor);
+int menu_od_operacji(struct Tablica *t, int *wybor, int n, int m, float wynik);
+int tablica(struct Tablica *t, int *wybor, int n, int m, int wartosc);
 int tablica_wysw(struct Tablica *t, int *wybor);
 int zapis_odczyt(struct Tablica *t, int *wybor);
-int operacje(struct Tablica *t, int *wybor);
+float operacje(struct Tablica *t, int *wybor, int n, int m, float wynik);
+int zapis_odczyt(struct Tablica *t, int *wybor);
+
