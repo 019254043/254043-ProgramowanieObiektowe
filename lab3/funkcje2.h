@@ -8,15 +8,13 @@ using namespace std;
 
 /*
  * @param[in,out] tab - tablica dwuwymiarowa
- * @param[in] t->wiersz - definiuje rozmiar tablicy
+ * @param[in] t->wiersz - definiuje rozmiar tablicy   
  * @param[in] t->kolumna -definiuje rozmiar tablicy
  * @param[in] wartosc - przechowuje wartość wpisywana do konkretnej komórki w tablicy
  * @param[in] wybor - przechowuje numer wybranej opcji przez użytkownika
- * @param[in] min - przechowuje minimalną wartość wiersza/kolumny
- * @param[in] max - przechowuje maksymalną wartość wiersza/kolumny
- * @param[in] suma - przechowuje sumę wszystkich komórek dla konktrenego wiersza/kolumny
- * @param[in] m - numer wiersza
- * @param[in] n - numer kolumny
+ * @param[in] n - numer wiersza
+ * @param[in] m - numer kolumny
+ * @param[out] wynik - zwaraca wartość w zależności od operacji, którą wybrał użytkownik
  * @return - kod błędu lub 0 w przypadku powodzenia
 */
 
@@ -33,5 +31,4 @@ int tablica(struct Tablica *t, int *wybor, int n, int m, int wartosc);
 int tablica_wysw(struct Tablica *t, int *wybor);
 int zapis_odczyt(struct Tablica *t, int *wybor);
 float operacje(struct Tablica *t, int *wybor, int n, int m, float wynik);
-int zapis_odczyt(struct Tablica *t, int *wybor);
 
