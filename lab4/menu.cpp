@@ -2,7 +2,7 @@
 
 int Tablica::menu(int *wybor)
 {
-	int n=0, m=0, wartosc, wybor;
+	int n=0, m=0, wartosc;
 	int min, max, suma, srednia;
 	float wynik=0;
 	do
